@@ -174,9 +174,9 @@ loginForm.addEventListener('submit', async (e) => {
         currentUser = result.user; // Define o usuário com o retorno da API
         
         if (currentUser === 'couve-flor') {
-            document.getElementById('panel-title').textContent = 'Cartas de Brócolis';
+            document.getElementById('panel-title').textContent = 'Cartas de Igor';
         } else {
-            document.getElementById('panel-title').textContent = 'Cartas de Couve-Flor';
+            document.getElementById('panel-title').textContent = 'Cartas de Luiza';
         }
 
         loginPanel.style.display = 'none';
